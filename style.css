@@ -56,7 +56,7 @@ header{
     margin-left: 60px;
     padding: 10px;
 
-    writing-mode: vertical-lr;
+    writing-mode: sideways-lr;
     font-size: 3em;
 
     color: white;
