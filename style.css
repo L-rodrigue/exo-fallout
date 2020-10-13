@@ -22,13 +22,12 @@ span{
 
 /* header et contenu */
 header{
-    background-image: url("imgs/Fallout-img.jpg");
+    background: center / cover no-repeat url("imgs/Fallout-img.jpg");
     height: 740px;
 }
 .number{
     font-family: 'roboto thin', sans-serif;
     font-weight: lighter;
-
 
     color: #F0AD2F ;
 }
@@ -143,4 +142,25 @@ footer{
 }
 .text-icon{
     font-weight: lighter;
+}
+
+@media screen and (max-width: 1050px){
+
+    .stick{
+        display: none;
+    }
+
+    .logo{
+        float: right;
+    }
+
+    .text-header{
+        font-size: 3rem;
+
+    }
+
+    .titre{
+        font-size: 6rem;
+    }
+
 }
